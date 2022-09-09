@@ -18,4 +18,8 @@ async function main() {
 }
 
 // Start the app
-main();
+main().catch( ( err ) => {
+
+	console.error( err );
+
+} );
