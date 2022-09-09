@@ -1,0 +1,20 @@
+{
+  "name": "three-js-starter-template",
+  "version": "1.0.0",
+  "description": "Modular Three.js Starter Template",
+  "main": "index.js",
+  "scripts": {
+		"serve": "http-server ./ -c-1 --cors"
+	},
+  "keywords": [
+    "three.js",
+    "template"
+  ],
+  "author": "Philip Nichols",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-mdcs": "^5.0.0",
+    "http-server": "^14.1.1"
+  }
+}
